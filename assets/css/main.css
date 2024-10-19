@@ -35,8 +35,56 @@ body {
 	line-height: 1;
 }
 
+/* my css rules*/
+.video-container {
+	position: relative;
+	width: 100%;
+	max-width: 800px; /* You can adjust the max width */
+	padding-top: 56.25%; /* This maintains the 16:9 aspect ratio (9/16 = 0.5625 or 56.25%) */
+	margin: 0 auto; /* Center the video on larger screens */
+}
+
+/* Responsive iframe inside the container */
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.my-link-style {
+	color: rgb(20, 175, 227);
+	border-bottom: dotted 1px;
+	
+}
+
+code{
+	transition: all 0.3s ease;
+}
+
+code:hover{
+	box-shadow: 0 0 20px #e0a941;
+	color: #e0a941;
+}
+
+.my-name-title{
+	transition: all 0.3s ease;
+	box-shadow: 0 0 20px lightblue;
+}
+
+.glow-text {
+	transition: all 0.3s ease; /* Smooth transition */
+	text-shadow: 0 0 10px lightblue, 0 0 20px lightblue, 0 0 30px #d19524;
+}
+
+
+/* end of my css rules */
+
 ol, ul {
 	list-style: none;
+	list-style-type: none;
 }
 
 blockquote, q {
@@ -107,19 +155,21 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
+
+
 	a {
 		-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #d0a75c;
+		color: #d0a75c ;
 		text-decoration: none;
 	}
 
 		a:hover {
 			color: #d0a75c !important;
-			border-bottom-color: transparent;
+			border-bottom-color: transparent ;
 		}
 
 	strong, b {
@@ -2579,7 +2629,7 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -2609,10 +2659,14 @@ input, select, textarea {
 
 /* Icons */
 
+
 	ul.icons {
 		cursor: default;
+		font-size: 1.2rem;
 		list-style: none;
 		padding-left: 0;
+		transition: all 0.3s ease;
+		
 	}
 
 		ul.icons li {
@@ -2628,6 +2682,10 @@ input, select, textarea {
 
 				ul.icons li .icon:before {
 					font-size: 2em;
+				}
+				.icon:hover {
+					 /* Change icon color on hover */
+					box-shadow: 0 0 30px #d19524; /* Glowing effect */
 				}
 
 /* Actions */
@@ -2858,6 +2916,8 @@ input, select, textarea {
 		.button:hover,
 		.button:active {
 			box-shadow: inset 0 0 0 1px #d0a75c;
+			transition: all 0.3s ease;
+			box-shadow: 0 0 30px #d19524;
 			color: #d0a75c !important;
 		}
 
