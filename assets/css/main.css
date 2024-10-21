@@ -118,7 +118,7 @@ code:hover{
 .bar span{
 	height: 20px;
 	float: left;
-	background: linear-gradient(135deg, rgb(214, 175, 16)0%, rgba(252, 103, 103, 1)100%);
+	background: linear-gradient(135deg, rgb(196, 170, 68)0%, rgba(252, 103, 103, 1)100%);
 }
 
 /* skills bars*/
@@ -150,6 +150,62 @@ code:hover{
 	}
 }
 
+.java{
+	width: 50%;
+	animation: java 3s;
+}
+
+@keyframes java {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 50%;
+	}
+}
+
+.scripting{
+	width: 90%;
+	animation: scripting 3s;
+}
+
+@keyframes scripting {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 90%;
+	}
+}
+
+.github{
+	width: 98%;
+	animation: github 3s;
+}
+
+@keyframes github {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 98%;
+	}
+}
+
+.vs-code{
+	width: 98%;
+	animation: vs-code 3s;
+}
+
+@keyframes vs-code {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 98%;
+	}
+}
+
 .css{
 	width: 85%;
 	animation: css 3s;
@@ -178,6 +234,215 @@ code:hover{
 	}
 }
 
+.javascript{
+	width: 60%;
+	animation: javascript 3s;
+}
+
+@keyframes javascript {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 60%;
+	}
+}
+
+.wordpress{
+	width: 95%;
+	animation: wordpress 3s;
+}
+
+@keyframes wordpress {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 95%;
+	}
+}
+
+.square-up{
+	width: 95%;
+	animation: square-up 3s;
+}
+
+@keyframes square-up {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 95%;
+	}
+}
+
+.canva{
+	width: 85%;
+	animation: canva 3s;
+}
+
+@keyframes canva {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 85%;
+	}
+}
+
+.ux-design{
+	width: 80%;
+	animation: ux-design 3s;
+}
+
+@keyframes ux-design {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 80%;
+	}
+}
+
+.testing{
+	width: 98%;
+	animation: testing 3s;
+}
+
+@keyframes testing {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 98%;
+	}
+}
+
+.asana{
+	width: 80%;
+	animation: asana 3s;
+}
+
+@keyframes asana {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 80%;
+	}
+}
+
+.jira{
+	width: 60%;
+	animation: jira 3s;
+}
+
+@keyframes jira {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 60%;
+	}
+}
+
+.salesforce{
+	width: 55%;
+	animation: salesforce 3s;
+}
+
+@keyframes salesforce {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 55%;
+	}
+}
+
+.excel{
+	width: 90%;
+	animation: excel 3s;
+}
+
+@keyframes excel {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 90%;
+	}
+}
+
+.problem-solving{
+	width: 98%;
+	animation: problem-solving 3s;
+}
+
+@keyframes problem-solving {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 98%;
+	}
+}
+
+.algorithms{
+	width: 85%;
+	animation: algorithms 3s;
+}
+
+@keyframes algorithms {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 85%;
+	}
+}
+
+.office365{
+	width: 98%;
+	animation: office365 3s;
+}
+
+@keyframes office365 {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 98%;
+	}
+}
+
+.g-suite{
+	width: 98%;
+	animation: g-suite 3s;
+}
+
+@keyframes g-suite {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 98%;
+	}
+}
+
+.anydesk{
+	width: 70%;
+	animation: anydesk 3s;
+}
+
+@keyframes anydesk {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 70%;
+	}
+}
 /* end of my css rules */
 
 ol, ul {
